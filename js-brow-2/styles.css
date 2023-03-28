@@ -1,9 +1,114 @@
-body {
-    display: flex;
-    justify-content: center;
+* {
+    box-sizing: border-box;
 }
 
 .main-container {
-    margin-top: 50px;
-    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.input-container {
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+
+#add-button {
+    background-color: red;
+}
+
+#delete-button {
+    background-color: mediumaquamarine;
+}
+
+.button {
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.is-complete {
+    text-decoration: line-through;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+.main-container {
+    margin-top: 20px;
+    width: 600px;
+    
+}
+
+#new-task {
+    opacity: 0.7;
+}
+
+.input-container, #task-container {
+    background-color: white;
+    padding: 15px;
+}
+
+#new-task {
+    width: 80%;
+    padding: 10px;
+}
+
+.button {
+    border-radius: 10px;
+    border: 0;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+}
+
+.task-checkbox {
+    width: 50px;
+    height: 50px;
+    border: 2px;
+    border-color: aqua;
+}
+
+[type="checkbox"] {display: none;}
+
+label {
+    padding-left: 30px;
+}
+
+label::before {
+    content: ' ';
+    border: solid 3px rgb(0, 204, 255);
+    border-radius: 5px;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 15px;
+}
+
+
+*/
